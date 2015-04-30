@@ -1,2 +1,2 @@
 # share_kha
-Share Library for Haxe Kha
+Share library for Haxe Kha
