@@ -7,3 +7,5 @@ Share library for Haxe Kha
 ``` hx
 share.Share.share(subject:String, body:String, url:String, attachScreenshot:Bool);
 ```
+
+<img src="https://raw.githubusercontent.com/luboslenco/share_kha/master/share.png" alt="Preview" style="width: 50%;"/>
