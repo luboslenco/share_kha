@@ -41,8 +41,7 @@ namespace ShareKore {
         
         [activityVC setValue:[[NSString alloc] initWithUTF8String:subject] forKey:@"subject"];
 
-        /*if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
-        {
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
             // Required for iPad
             activityVC.popoverPresentationController.sourceView = [[UIApplication sharedApplication] keyWindow];
 
@@ -53,7 +52,7 @@ namespace ShareKore {
             activityVC.popoverPresentationController.sourceRect = [[UIApplication sharedApplication] keyWindow].frame;
         }
 
-        activityVC.excludedActivityTypes = @[UIActivityTypeAddToReadingList,
+        /*activityVC.excludedActivityTypes = @[UIActivityTypeAddToReadingList,
                                              UIActivityTypeCopyToPasteboard,
                                              UIActivityTypePrint,
                                              UIActivityTypeAssignToContact,
