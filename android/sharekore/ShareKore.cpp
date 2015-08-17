@@ -10,7 +10,7 @@ namespace ShareKore {
         
         jclass cls = getEnv()->FindClass("sharekore/ShareKore");
 
-        jmethodID shareId = getEnv()->GetStaticMethodID(cls, "share", "()V");
+        jmethodID shareId = getEnv()->GetStaticMethodID(cls, "share", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V");
 
         jstring jsubject = getEnv()->NewStringUTF(subject);
         jstring jbody = getEnv()->NewStringUTF(body);
