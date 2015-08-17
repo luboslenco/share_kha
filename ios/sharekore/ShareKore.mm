@@ -3,10 +3,6 @@
 
 namespace ShareKore {
 
-	int init() {
-		return 0;
-	}
-
 	void share(const char* subject, const char* body, const char* url, bool attachScreenshot) {	
         
         UIWindow *window = [[[UIApplication sharedApplication] windows] objectAtIndex:0];
